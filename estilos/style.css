@@ -40,3 +40,21 @@ iframe#tela {
     height: 469px;
     width: 266px;
 }
+section#redes {
+    text-align: right;
+}
+
+section#redes img{ 
+    width: 50px;
+    margin: 9px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.774);
+    box-sizing: border-box;
+}
+
+section#redes img:hover{
+    border: 3px solid white;
+    transform: translate(-3px, -2px);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.699);
+    transition: transform 0.2s, border 0.15s, box-shadow 0.2s;
+}
